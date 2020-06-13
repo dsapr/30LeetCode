@@ -1,0 +1,22 @@
+设置用户名和邮箱
+git config --global user.name 'itcastphpgit1'
+git config --global user.email '785722840@qq.com'
+
+查看设置
+git config --list
+
+新建仓库
+cd filename
+git init	//生成一个 .git 文件
+
+向仓库添加文件
+git status
+git add newfile	//添加文件到暂存区
+
+git add -A  添加所有变化
+git add -u  添加被修改(modified)和被删除(deleted)文件，不包括新文件(new)
+git add .   添加新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
+
+git commit -m 'tip'	//将文件从暂存区添加到仓库
+
+
