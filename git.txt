@@ -19,4 +19,21 @@ git add .   添加新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
 git commit -m 'tip'	//将文件从暂存区添加到仓库
 
+从Git中删除文件
+rm filename
+git rm filename
+
+管理远程仓库
+ 
+把github上面的仓库克隆到本地
+git clone https://...
+
+git add .
+git commit -m 'tip'
+git push -u origin master    //将本地仓库push到github
+
+
+
+
+
 
